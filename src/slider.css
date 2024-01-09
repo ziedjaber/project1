@@ -1,0 +1,35 @@
+.slider{
+    height: 40px;
+    border: 2px solid rgb(187, 4, 4);
+    border-radius: 20px;
+}
+.thumb{
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+/* Define styles for the second slider using unique class names */
+.slider2 {
+    height: 40px;
+    border: 2px solid green;
+    border-radius: 20px;
+  }
+  
+  .thumb2 {
+    background-color: green;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  .slider2.green {
+    border: 2px solid var(--green);
+  }
+  
+  .slider2.green .thumb2 {
+    background-color: var(--green);
+  }
+  
